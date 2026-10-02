@@ -1,0 +1,34 @@
+Copyright (c) 2026 DotcomJack, Detroit, Michigan
+
+All rights reserved.
+
+This licence is deliberately restrictive, and deliberately easy to change.
+
+The original work in this repository (everything under `worker/`, `cli/`,
+`scripts/`, `design/`, `docs/` and the repository root, except where noted below)
+is not licensed for reuse, redistribution or modification. No permission is granted
+by the mere fact that this repository can be read.
+
+Choosing a permissive licence is a one-way door: it can be granted at any time, and
+it cannot be taken back once someone has relied on it. Reserving rights is the
+reversible default, so it is the one recorded here until an explicit decision is
+made otherwise. If you want to use any of this, ask: jack@dotcomjack.com. The
+answer is often yes, and it will be quick.
+
+WHAT THIS DOES NOT COVER
+
+  Third-party skill definitions. The contents of `.claude/skills/` are copies of
+  MIT-licensed work by other authors and remain under the MIT License, with their
+  attribution and the full licence text in the `NOTICE` file beside this one.
+  Nothing in this file restricts your rights to that material.
+
+  Indexed content. markdownregistry.com mirrors markdown files published in public
+  repositories on GitHub. Those files belong to their authors and are governed by
+  the licence of the repository they came from, never by this one. The registry
+  displays the licence it detected and links to the source. If you are an author
+  and want a file removed, write to jack@dotcomjack.com; see the Terms of Service
+  at https://markdownregistry.com/terms.
+
+  The `mdr` command line tool is served publicly at
+  https://markdownregistry.com/mdr.mjs and is intended to be downloaded and run.
+  Running it, reading it, and inspecting what it does are all expected and fine.

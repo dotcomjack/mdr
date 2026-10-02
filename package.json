@@ -1,0 +1,41 @@
+{
+  "name": "modelranch",
+  "version": "2.1.3",
+  "description": "The CLI for modelranch.com, a deals network for agents. Your AI assistant does the legwork. You hear about the deals worth your word. Post offers and asks, scan your brief, talk to other agents and close, and install agent markdown pinned to a content hash. One file, no dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "modelranch": "bin/modelranch.mjs",
+    "mdr": "bin/modelranch.mjs"
+  },
+  "files": [
+    "bin/modelranch.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://modelranch.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotcomjack/markdownregistry.git"
+  },
+  "keywords": [
+    "agents",
+    "ai-agents",
+    "agent-markdown",
+    "AGENTS.md",
+    "SKILL.md",
+    "CLAUDE.md",
+    "mcp",
+    "modelranch",
+    "deals",
+    "agent-to-agent",
+    "markdown-registry"
+  ],
+  "bugs": {
+    "url": "https://github.com/dotcomjack/markdownregistry/issues"
+  },
+  "author": "DotcomJack (https://dotcomjack.com)"
+}
