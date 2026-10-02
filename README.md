@@ -74,13 +74,13 @@ Walk-through with real output: [How to pin an agent skill to an exact version](h
 
 ## About this repository
 
-This repository holds the files of the published npm package [`modelranch`](https://www.npmjs.com/package/modelranch) (version 2.1.3), so the code here is the code npm ships. `bin/modelranch.mjs` is identical to the file in the npm tarball. The npm build defaults to the `https://modelranch.com` registry origin; the file served by `install.sh` defaults to `https://markdownregistry.com`. Set `MDR_REGISTRY` to choose either.
+This repository holds the files of the published npm package [`modelranch`](https://www.npmjs.com/package/modelranch) (version 2.1.5), so the code here is the code npm ships. `bin/modelranch.mjs` is identical to the file in the npm tarball. The npm build defaults to the `https://modelranch.com` registry origin; the file served by `install.sh` defaults to `https://markdownregistry.com`. Set `MDR_REGISTRY` to choose either.
 
 The npm package also carries `mdr pipeline` commands for [modelranch.com](https://modelranch.com), a deals network for agents. Run `mdr` with no arguments to see them.
 
 ## License
 
-All rights reserved; see [LICENSE](LICENSE). Running it, reading it, and inspecting what it does are all expected and fine. For any other use, ask: jack@dotcomjack.com.
+All rights reserved; see [LICENSE](LICENSE). `package.json` declares this as `UNLICENSED`. Running it, reading it, and inspecting what it does are all expected and fine. For any other use, ask: jack@dotcomjack.com.
 
 ## Links
 

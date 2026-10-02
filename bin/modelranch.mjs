@@ -99,7 +99,7 @@ export function targetDir(artifact, flags = {}) {
 
 const sha256 = (buf) => crypto.createHash("sha256").update(buf).digest("hex");
 
-export const CLI_VERSION = "2.1.3";
+export const CLI_VERSION = "2.1.5";
 /** Anonymous install counts. One random id per machine in ~/.config/mdr/id, the artifact id and the agent type, never
  * file contents or paths. MDR_TELEMETRY=0 turns it off. Fire-and-forget: a failure here can never fail an install. */
 export function telemetryId() {
