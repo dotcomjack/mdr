@@ -38,6 +38,17 @@ mdr update <owner/repo/name>          move the pin to the latest version
 
 Run `mdr` with no arguments for the full list.
 
+## Guides
+
+Plain answers with real commands and figures from the registry's own data:
+
+- [How to pin an agent skill to an exact version](https://markdownregistry.com/guides/pin-agent-skills): the lockfile, checking for upstream changes, reading the diff first
+- [AGENTS.md vs CLAUDE.md vs SKILL.md: which file does what](https://markdownregistry.com/guides/agents-md-vs-claude-md): which agents read each file, and keeping AGENTS.md and CLAUDE.md in sync
+- [Are agent skills safe? What to check before installing](https://markdownregistry.com/guides/agent-skill-security): what to read in a skill, and what an audit of public SKILL.md files flags
+- [Where to find agent skills: directories and registries](https://markdownregistry.com/guides/where-to-find-agent-skills): how each one lists, installs, audits and versions skills
+- [SKILL.md frontmatter: the required fields and their rules](https://markdownregistry.com/guides/skill-md-frontmatter): the two required fields, and when to use a skill or an MCP server
+- [Agent skills for a team: pin, share and publish](https://markdownregistry.com/guides/agent-skills-for-teams): one version for everyone, private skills, publishing your own
+
 ## Why pin agent markdown
 
 An agent that loads a skill or an `AGENTS.md` by reference reads whatever the file says today. In the registry's corpus, roughly one in five agent markdown files changed within two weeks of being indexed: of 47,724 files watched for at least 14 days, at least 9,487 (19.9%) received a new upstream commit within 14 days. Source: [State of agent markdown, September 2026](https://markdownregistry.com/reports/state-of-agent-markdown-2026-09) (dataset: [dotcomjack/state-of-agent-markdown](https://github.com/dotcomjack/state-of-agent-markdown)).
